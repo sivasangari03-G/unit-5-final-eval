@@ -17,7 +17,7 @@ export const UserPage = () => {
 	}, []);
 
 	return (
-		<div>
+		<div style={{padding: "20px"}}>
 			<h1>Users Details</h1>
 			{data.map((elem) => {
 				return (

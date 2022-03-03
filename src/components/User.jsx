@@ -22,8 +22,8 @@ export const User = () => {
     console.log("s", value);
   return (
 		<>
-			<div>
-				<div>{value.username}</div>
+			<div style={{padding: "40px"}}>
+				<h2>{value.username}</h2>
           </div>
           
 		</>

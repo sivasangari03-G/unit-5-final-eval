@@ -17,20 +17,6 @@ export const Post = () => {
 			});
 	}, []);
 
-	// const handleAscending = () => {
-	// 	const asc = value.filter((a, b) => {
-	// 		return a - b;
-	// 	});
-	// 	console.log(asc);
-	// 	setValue(asc);
-	// };
-	// const handleDescending = () => {
-	// 	const des = value.filter((a, b) => {
-	// 		return b - a;
-	// 	});
-	// 	console.log(des);
-	// 	setValue(des);
-	// };
 	return (
 		<div>
 			<h1>post</h1>

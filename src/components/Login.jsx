@@ -11,22 +11,33 @@ export const Login = () => {
 	};
 
 	return (
-		<div>
+		<div style={{ padding: "20px" }}>
 			<form onSubmit={handleSubmit}>
 				<input
+					style={{ padding: "10px 20px", marginRight: "10px" }}
 					type="email"
 					placeholder="email"
 					value={email}
 					onChange={(e) => setEmail(e.currentTarget.value)}
 				/>
 				<input
+					style={{ padding: "10px 20px" }}
 					type="password"
 					placeholder="password"
 					value={password}
 					onChange={(e) => setPassword(e.currentTarget.value)}
 				/>
 				<div>
-					<button type="submit">Login</button>
+					<button
+						style={{
+							padding: "10px 30px",
+							fontSize: "15px",
+							marginTop: "30px",
+						}}
+						type="submit"
+					>
+						LOGIN
+					</button>
 				</div>
 			</form>
 		</div>
